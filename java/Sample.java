@@ -16,6 +16,8 @@ public class Sample {
 			throw new RuntimeException("Number should be bigger than zero");
 		}
 		
+		System.out.println(this.str);
+		
 		return a + 1;
 	}
 	

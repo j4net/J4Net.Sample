@@ -114,7 +114,6 @@ namespace Sample
 
         public Sample(int x, int y, string str)
         {
-            //todo release string
             using (var strUtf = Env.NewStringUtf(str))
             {
                 jObject = Env.NewObject(ClassPtr.Ptr, Constructor.Ptr,
